@@ -43,6 +43,8 @@ function Home({
         <main>
             <h1>Home</h1>
 
+            {!notes.length && <h2>No notes have been added</h2>}
+
             {notes.map((note, index) => (
                 <div key={note._id} className="note">
                     <h3>{note.text}</h3>
