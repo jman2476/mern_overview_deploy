@@ -36,8 +36,7 @@ function NoteForm({
              })
         }
 
-
-        setShowNoteForm(false)
+        closeModal()
     }
 
     const closeModal = () => {
